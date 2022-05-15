@@ -10,12 +10,22 @@ body {
 }
 
 .navbar,
-a,
 .nav-link,
 .navbar-light {
     background-color: #edc7b7;
     color: #ac3b61;
     font-size: 1.2em;
+}
+
+a {
+    font-size: 1.2rem;
+    color: #123c69;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ac3b61;
 }
 
 .row {
