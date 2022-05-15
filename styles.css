@@ -1,0 +1,63 @@
+body {
+    background-color: #eee2dc;
+    color: #123c69;
+}
+
+.navbar,
+a,
+.nav-link {
+    background-color: #edc7b7;
+    color: #ac3b61;
+    font-size: 1.2em;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.text-content {
+    padding-right: 10rem;
+    padding-left: 10rem;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+img {
+    margin: 1em 0;
+    border: 10px solid #edc7b7;
+    border-radius: 15px;
+}
+
+#accordion-corgi {
+    width: 100%;
+}
+
+#carouselExampleIndicators {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 50%;
+}
+
+.carousel-indicators {
+    margin-bottom: 2rem;
+}
+
+.accordion {
+    margin: 1em 0;
+}
+
+.accordion-button {
+    background-color: #edc7b7;
+    font-size: 0.8em;
+}
+
+.accordion-item {
+    background-color: #eee2dc;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #edc7b7;
+}
