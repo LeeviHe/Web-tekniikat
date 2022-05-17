@@ -1,4 +1,5 @@
 * {
+    font-family: Georgia, "Times New Roman", Times, serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,8 +14,15 @@ body {
 .nav-link,
 .navbar-light {
     background-color: #edc7b7;
-    color: #ac3b61;
+    color: #ac3b61 !important;
     font-size: 1.2em;
+}
+
+.dropdown-menu,
+.dropdown-menu a {
+    background-color: #eee2dc;
+    text-decoration: underline;
+    color: #123c69;
 }
 
 a {
@@ -41,7 +49,7 @@ a:hover {
     padding: 0;
 }
 
-img {
+.img-container {
     margin: 1em 0;
     border: 10px solid #edc7b7;
     border-radius: 15px;
@@ -54,7 +62,7 @@ img {
 #carouselExampleIndicators {
     margin: 0 auto;
     text-align: center;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .carousel-indicators {
@@ -79,5 +87,44 @@ img {
 }
 
 .footer {
+    padding: 20px;
     background-color: #edc7b7;
+    text-align: center;
+}
+
+.front-page-container,
+.second-page-container,
+.third-page-container {
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.collapse>.btn {
+    margin-right: 20px;
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.275), 0 5px 7px rgba(0, 0, 0, 0.348);
+}
+
+.collapse>.btn:hover,
+.collapse>.btn:active {
+    border: 2px solid #ac3b61;
+    transition: all 0.2s;
+}
+
+p>a {
+    color: #ac3b61;
+}
+
+@media screen and (max-width: 768px) {
+    #carouselExampleIndicators {
+        max-width: 100%;
+    }
+    .dropdown-menu,
+    .dropdown-menu a {
+        background-color: #edc7b7;
+        text-align: center;
+        border: none;
+    }
+    .text-content {
+        padding: 2rem 1rem;
+    }
 }
