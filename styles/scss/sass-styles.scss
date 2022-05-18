@@ -7,11 +7,11 @@ $body-bg: #eee2dc;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: $blue-font;
 }
 
 body {
     background-color: $body-bg;
+    color: $blue-font;
 }
 
 .header {
@@ -22,12 +22,14 @@ body {
 .nav-link,
 .navbar-light {
     color: $red-font !important;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
-.dropdown-menu,
-.dropdown-menu a {
+.dropdown-menu {
     background-color: $body-bg;
+}
+
+.dropdown-menu a {
     text-decoration: underline;
 }
 
@@ -102,6 +104,11 @@ a:hover {
     background-color: $box-bg;
 }
 
+.accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
 .footer {
     padding: 20px;
     background-color: $box-bg;
@@ -124,7 +131,7 @@ a:hover {
     transition: all 0.3s;
 }
 
-#clicker-corgi:hover {
+#clicker-corgi:active {
     transform: scale(1.1);
 }
 
@@ -152,18 +159,31 @@ a:hover {
 }
 
 .dark-box {
-    transition: 0.5s;
-    background-color: darkgrey;
+    transition: all 0.5s;
+    background-color: #3aafa9 !important;
 }
 
 .dark-border {
-    transition: 0.5s;
-    border: lightgray 10px solid;
+    transition: all 0.5s;
+    border: #3aafa9 10px solid !important;
 }
 
 .dark-body {
-    transition: 0.5s;
-    background-color: lightgray;
+    transition: all 0.5s;
+    background-color: #def2f1 !important;
+}
+
+.dark-accordion-body {
+    background-color: #def2f1 !important;
+    transition: all 0.5s;
+}
+
+.dark-font {
+    color: #17252a;
+    a {
+        color: #17252a !important;
+    }
+    transition: all 0.5s;
 }
 
 @media screen and (max-width: 768px) {

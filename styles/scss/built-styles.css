@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #123c69;
 }
 
 body {
   background-color: #eee2dc;
+  color: #123c69;
 }
 
 .header {
@@ -18,12 +18,14 @@ body {
 .nav-link,
 .navbar-light {
   color: #ac3b61 !important;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
-.dropdown-menu,
-.dropdown-menu a {
+.dropdown-menu {
   background-color: #eee2dc;
+}
+
+.dropdown-menu a {
   text-decoration: underline;
 }
 
@@ -98,6 +100,11 @@ a:hover {
   background-color: #edc7b7;
 }
 
+.accordion-button:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
 .footer {
   padding: 20px;
   background-color: #edc7b7;
@@ -120,7 +127,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-#clicker-corgi:hover {
+#clicker-corgi:active {
   transform: scale(1.1);
 }
 
@@ -148,18 +155,31 @@ a:hover {
 }
 
 .dark-box {
-  transition: 0.5s;
-  background-color: darkgrey;
+  transition: all 0.5s;
+  background-color: #3aafa9 !important;
 }
 
 .dark-border {
-  transition: 0.5s;
-  border: lightgray 10px solid;
+  transition: all 0.5s;
+  border: #3aafa9 10px solid !important;
 }
 
 .dark-body {
-  transition: 0.5s;
-  background-color: lightgray;
+  transition: all 0.5s;
+  background-color: #def2f1 !important;
+}
+
+.dark-accordion-body {
+  background-color: #def2f1 !important;
+  transition: all 0.5s;
+}
+
+.dark-font {
+  color: #17252a;
+  transition: all 0.5s;
+}
+.dark-font a {
+  color: #17252a !important;
 }
 
 @media screen and (max-width: 768px) {

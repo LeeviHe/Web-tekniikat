@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header" id="header">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,21 +27,20 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Valikko
                 </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown-menu">
                                 <li><a class="dropdown-item" href="info.html">Info-sivu</a></li>
                                 <li><a class="dropdown-item" href="clicker.html">Corgi-clicker</a></li>
                             </ul>
                         </li>
                     </ul>
-                    <button class="btn btn-light">Default theme</button>
-                    <button class="btn btn-dark">Dark theme</button>
+                    <button class="btn btn-dark" id="dark-theme-btn">Vaihda väriteemaa!</button>
                 </div>
             </div>
         </nav>
     </div>
     <div class="third-page-container container-fluid">
         <div class="row">
-            <div class="img-container clicker-img">
+            <div class="img-container clicker-img" id="image-border">
                 <button type="button" class="btn" id="clicker-button">
             <img src="../images/clickercorgi.jpg" alt="Corgi lehdissä" id="clicker-corgi" />
           </button>
@@ -57,7 +56,7 @@
         </div>
     </div>
     </div>
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="row">
             <p class="col-4">
                 Lähde: <a href="https://fi.wikipedia.org/wiki/Welsh_corgi_pembroke">Wikipedia</a>
