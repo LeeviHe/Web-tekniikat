@@ -1,5 +1,5 @@
-let darkThemeBtn = document.getElementById("change-theme-btn");
-darkThemeBtn.addEventListener("click", add);
+let changeThemeBtn = document.getElementById("change-theme-btn");
+changeThemeBtn.addEventListener("click", add);
 
 function add() {
     let header = document.getElementById("header");
