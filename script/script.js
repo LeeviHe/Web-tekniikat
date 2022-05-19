@@ -1,4 +1,4 @@
-let darkThemeBtn = document.getElementById("dark-theme-btn");
+let darkThemeBtn = document.getElementById("change-theme-btn");
 darkThemeBtn.addEventListener("click", add);
 
 function add() {

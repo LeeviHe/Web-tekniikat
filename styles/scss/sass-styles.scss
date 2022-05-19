@@ -3,13 +3,13 @@ $red-font: #ac3b61;
 $box-bg: #edc7b7;
 $body-bg: #eee2dc;
 * {
-    font-family: Georgia, "Times New Roman", Times, serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
+    font-family: Georgia, "Times New Roman", Times, serif;
     background-color: $body-bg;
     color: $blue-font;
 }
@@ -194,6 +194,10 @@ a:hover {
         color: #17252a !important;
     }
     transition: all 0.5s;
+}
+
+*[class*="dark"] {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
 }
 
 @media screen and (max-width: 768px) {

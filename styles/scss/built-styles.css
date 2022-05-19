@@ -1,11 +1,11 @@
 * {
-  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #eee2dc;
   color: #123c69;
 }
@@ -190,6 +190,10 @@ a:hover {
 }
 .dark-font a {
   color: #17252a !important;
+}
+
+*[class*=dark] {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
 }
 
 @media screen and (max-width: 768px) {
