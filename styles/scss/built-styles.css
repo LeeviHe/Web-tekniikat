@@ -98,6 +98,7 @@ a:hover {
 
 .accordion-button:not(.collapsed) {
   background-color: #edc7b7;
+  color: #ac3b61;
 }
 
 .accordion-button:focus {
@@ -107,12 +108,13 @@ a:hover {
 
 .footer {
   padding: 20px;
+  padding-bottom: 50px;
   background-color: #edc7b7;
   text-align: center;
 }
 
 .clicker-img {
-  width: 40%;
+  width: 45%;
   margin: 0 auto;
   border-radius: 40%;
 }
@@ -129,6 +131,14 @@ a:hover {
 
 #clicker-corgi:active {
   transform: scale(1.1);
+}
+
+#counter {
+  font-size: 1.7rem;
+}
+
+.red-counter {
+  color: #ac3b61;
 }
 
 .front-page-container,
@@ -189,7 +199,6 @@ a:hover {
 
   .dropdown-menu,
 .dropdown-menu a {
-    background-color: #edc7b7;
     text-align: center;
     border: none;
   }
@@ -206,13 +215,5 @@ a:hover {
     width: 90%;
   }
 }
-/*@mixin headerDarkTheme($theme: DarkGrey) {
-    background-color: $theme;
-    color: #eee2dc;
-}
-
-.header {
-    @include headerDarkTheme($theme: DarkGrey);
-}*/
 
 /*# sourceMappingURL=built-styles.css.map */
